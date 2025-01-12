@@ -253,6 +253,13 @@ section{
     border: rgb(255,255,255) 0.1rem solid;
 }
 
+.disabled-btn{
+    cursor: default;
+    filter: opacity(0.5);
+    overflow: none;
+    pointer-events: none;
+}
+
 /* ABOUT SECTION */
 
 #about{
