@@ -152,10 +152,12 @@ section{
     margin: 0 10rem;
     box-sizing: border-box;
     min-height: fit-content;
+    max-height: 1080px;
 }
 
 .section-container{
     display: flex;
+    justify-content: center;
 }
 
 /* PROFILE SECTION */
@@ -304,6 +306,10 @@ section{
     max-width: 400px;
 }
 
+.text-container{
+    max-width: 832px;
+}
+
 .section-container{
     gap: 4rem;
     height: 80%;
@@ -387,7 +393,8 @@ article .icon{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 70vh;
+    height: 50vh;
+    max-height: 540px;
 }
 
 .contact-info-upper-container{
