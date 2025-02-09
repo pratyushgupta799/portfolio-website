@@ -61,7 +61,9 @@
         flex-wrap: wrap;
     }
     .contact-info-upper-container{
+        align-self: center;
         justify-self: center;
+        margin: 2rem;
     }
     .contact-info-container{
         margin: 0;
