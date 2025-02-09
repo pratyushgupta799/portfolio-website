@@ -10,8 +10,9 @@
     <link rel="stylesheet" href="mediaqueries.css">
     <script src="script.js"></script>
     <meta name="title" content="Pratyush Gupta">
-    <meta name="description" content="Game Developer">
-    <meta property="og:image" content="https://cdn.discordapp.com/attachments/1129056844028059759/1334430562244497472/stxavierspic.png?ex=679c80ce&is=679b2f4e&hm=ab1e38b01e00bab87443a29ea057f201b309ae523bdd41a77cb4c566dc2250fe&">
+    <meta name="description" content="Unity Developer">
+    <meta property="og:image"
+        content="https://cdn.discordapp.com/attachments/1129056844028059759/1334430562244497472/stxavierspic.png?ex=679c80ce&is=679b2f4e&hm=ab1e38b01e00bab87443a29ea057f201b309ae523bdd41a77cb4c566dc2250fe&">
 </head>
 
 <body>
@@ -49,7 +50,7 @@
         <div class="section__text">
             <p class="section__text__p1">Hello I'm</p>
             <h1 class="title">Pratyush Gupta</h1>
-            <p class="section__text__p2">Game Developer</p>
+            <p class="section__text__p2">Unity Developer</p>
             <div class="btn-container">
                 <button class="btn btn-color-2" onclick="window.open('./assets/PratyushGuptaUnityResume.pdf')">
                     Download CV</button>
@@ -64,7 +65,7 @@
             </div>
         </div>
     </section>
-    <section id="projects">
+    <!-- <section id="projects">
         <p class="section__text__p1">Browse My Recent</p>
         <h1 class="title">Projects</h1>
 
@@ -100,45 +101,57 @@
                 </div>
             </div>
         </div>
-    </section>
-    <!-- <section id="projects">
+    </section> -->
+    <section id="projects">
         <p class="section__text__p1">Browse My Recent</p>
-        <h1 class="title">Projects as 3D Artist</h1>
-
-        <div class="experience-details-container">
-            <div class="about-container">
-                <div class="details-container color-container">
-                    <div class="article-container">
-                        <img src="./assets/WOF.png" alt="project 1" class="project-img">
-                    </div>
-                    <h2 class="experience-sub-title project-title">Wheels Of Fury</h2>
+        <h1 class="title">Projects</h1>
+        <div class="project-container">
+            <div class="project-main-container">
+                <h1 class="project-title">Ball</h1>
+                <img src="./assets/BallGameplay-ezgif.com-crop.gif" alt="Gameplay gif" class="project-banner">
+                <div class="project-details-container">
                     <div class="btn-container">
-                        <button class="btn btn-color-2 project-btn" onclick="window.open('https://dg-cent-wof.netlify.app/')">
+                        <button class="btn btn-color-2 project-btn" onclick="window.open('https://balloonok.netlify.app/')">
                             Live Demo
                         </button>
-                        <button class="btn btn-color-2 project-btn disabled-btn">
-                            Learn More
+                        <button class="btn btn-color-1 project-btn" onclick="window.open('https://github.com/pratyushgupta799/Balloon')">
+                            Github
                         </button>
                     </div>
+            
+                    <ul class="project-bullet-pts">
+                        <li>Used mouse input, keyboard input and touch input altogether to make it widely compatible</li>
+                        <li>Calculated the exact point where the ball got hit on the paddle to impact its reflection
+                            accordingly</li>
+                    </ul>
+            
                 </div>
-                <div class="details-container color-container">
-                    <div class="article-container">
-                        <img src="./assets/project3.png" alt="project 3" class="project-img">
-                    </div>
-                    <h2 class="experience-sub-title project-title">Planet Heroes</h2>
+                <hr class="border-line">
+            </div>
+            <div class="project-main-container">
+                <h1 class="project-title">Balloon</h1>
+                <img src="./assets/BalloonGameplay.gif" alt="Gameplay gif" class="project-banner">
+                <div class="project-details-container">
                     <div class="btn-container">
-                        <button class="btn btn-color-2 project-btn" onclick="window.open('https://www.amazon.com/Gamebee-Publishing-PVT-Planet-Hero/dp/B0C86KGKS9')">
-                            Download
+                        <button class="btn btn-color-2 project-btn" onclick="window.open('https://ballok.netlify.app/')">
+                            Live Demo
                         </button>
-                        <button class="btn btn-color-2 project-btn disabled-btn">
-                            Learn More
+                        <button class="btn btn-color-1 project-btn" onclick="window.open('https://github.com/pratyushgupta799/Ball')">
+                            Github
                         </button>
                     </div>
+            
+                    <ul class="project-bullet-pts">
+                        <li>Made random pattern spawner</li>
+                        <li>Created atlas based texture map</li>
+                    </ul>
+            
                 </div>
+                <hr class="border-line">
             </div>
         </div>
-        <img src="./assets/arrow.png" alt="arrow" class="icon arrow" onclick="location.href='./#contact'">
-    </section> -->
+        
+    </section>
     <section id="about">
         <p class="section__text__p1">Get To Know More</p>
         <h1 class="title">About Me</h1>
@@ -151,7 +164,7 @@
                     <div class="details-container">
                         <img src="./assets/experience.png" alt="experience" class="icon">
                         <h3>Work Experience</h3>
-                        <p>2+ Years 3D Artist <br> Fresher Game Developer</p>
+                        <p>2+ Years 3D Artist <br> Fresher Unity Developer</p>
                     </div>
                     <div class="details-container">
                         <img src="./assets/education.png" alt="education" class="icon">
@@ -160,7 +173,9 @@
                     </div>
                 </div>
                 <div class="text-container">
-                    <p>Found my attraction to creative field in a young age, started with pencil sketch, then switched to 3D Art finding games really cool. Broke through the game industry right at the age 18 working on real projects.</p>
+                    <p>Found my attraction to creative field in a young age, started with pencil sketch, then switched
+                        to 3D Art finding games really cool. Broke through the game industry right at the age 18 working
+                        on real projects.</p>
                 </div>
             </div>
         </div>

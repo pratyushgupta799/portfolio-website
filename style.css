@@ -378,15 +378,52 @@ article .icon{
 }
 
 .project-title{
+    font-weight: 400;
     margin: 1rem;
     color: black;
+    font-size: 30px;
 }
 
-.project-btn{
-    color: black;
-    border-color: rgb(163, 163, 163);
+.project-container{
+    display: flex;
+    flex-direction: column;
 }
 
+/* ------------------------------------ */
+
+.project-main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.project-banner{
+    aspect-ratio: 16/9;
+    width: 800px;
+    border-radius: 10px;
+    filter: contrast(1.5);
+    filter: brightness(1.1);
+}
+
+.project-details-container{
+    padding: 25px;
+    gap: 5rem;
+}
+
+.project-bullet-pts{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.project-bullet-pts li{
+    margin: 10px;
+}
+
+.border-line{
+    width: 100%;
+    max-width: 1000px;
+}
 /* CONTACT */
 
 #contact{

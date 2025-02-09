@@ -37,6 +37,9 @@
     .about-container{
         margin-top: 0;
     }
+    .project-banner{
+        width: 60%;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -90,5 +93,14 @@
     }
     .text-container{
         text-align: justify;
+    }
+    .project-banner{
+        width: 100%;
+    }
+    .project-main-container{
+        padding: 5px;
+    }
+    .project-btn{
+        width: 110px;
     }
 }
