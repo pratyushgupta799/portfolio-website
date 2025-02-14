@@ -148,11 +148,10 @@ a:hover{
 
 section{
     padding: 4vh;
-    height: 96vh;
     margin: 0 10rem;
     box-sizing: border-box;
     min-height: fit-content;
-    max-height: 1080px;
+    /* max-height: 1080px; */
 }
 
 .section-container{
