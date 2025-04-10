@@ -405,10 +405,6 @@ article .icon{
     filter: brightness(1.1);
 }
 
-.mobile-gif{
-    border-radius: 65px;
-}
-
 .project-details-container{
     padding: 25px;
     gap: 5rem;
