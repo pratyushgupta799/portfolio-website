@@ -55,6 +55,10 @@
 }
 
 @media screen and (max-width: 600px) {
+    .nav{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
     #contact, footer{
         height: 40vh;
     }

@@ -172,7 +172,7 @@ a:hover{
 
 .triangle{
     position: absolute;
-    left: 100px;
+    left: 120px;
     top: 80px;
     transform: rotateZ(-20deg);
     scale: 0.8;
