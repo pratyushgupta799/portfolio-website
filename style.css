@@ -26,11 +26,14 @@ p{
     max-width: 1600px;
     background-color: white;
     position: relative;
+    overflow: visible;
+    z-index: 0;
 }
 /* TRANSITION */
 
 a, .btn{
     transition: all 300ms ease;
+    z-index: 2;
 }
 
 /* DESKTOP NAV */
@@ -60,6 +63,7 @@ a{
 }
 
 a:hover{
+    cursor: pointer;
     color: grey;
     text-decoration: underline;
     text-underline-offset: 1rem;
@@ -163,6 +167,7 @@ a:hover{
     width: 100%;
     height: 100vh;
     /* background-color: yellow; */
+    overflow: visible;
 }
 
 .triangle{
