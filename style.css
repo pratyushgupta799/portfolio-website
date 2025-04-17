@@ -530,3 +530,14 @@ article .icon{
 .email-icon{
     scale: 1.2;
 }
+
+/* FOOTER */
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links-container{
+    justify-self: center;
+}
