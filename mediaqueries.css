@@ -5,8 +5,8 @@
     }
 
     .btn-color-1, .btn-color-2{
-        border: rgb(53, 53, 53) 0.2rem solid;
-        font-size: 20px;
+        border: rgb(53, 53, 53) 0.15rem solid;
+        font-size: 15px;
     }
 }
 
