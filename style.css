@@ -474,11 +474,18 @@ article .icon{
 .project-details-container{
     padding: 25px;
     gap: 5rem;
+    /* background-color: blue; */
+    width: 720px;
 }
 
 .project-bullet-pts{
     margin-top: 30px;
     margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    /* background-color: yellow; */
 }
 
 .project-bullet-pts li{
