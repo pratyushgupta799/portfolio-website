@@ -20,3 +20,9 @@ document.addEventListener('DOMContentLoaded', () => {
     updateBorderRadius(); // Initial run
     window.addEventListener('resize', updateBorderRadius); // Re-run on resize
 });
+
+window.addEventListener('scroll', () => {
+    const scrollY = window.scrollY;
+    el = document.querySelector('.bg-elements');
+    el.style.transform = `translateY(${scrollY * 0.1}px)`;
+  });
