@@ -36,18 +36,6 @@ a, .btn{
     z-index: 2;
 }
 
-.blue-link{
-    color: rgb(132, 0, 255);
-    text-decoration: none;
-}
-
-.blue-link:hover{
-    cursor: pointer;
-    text-decoration: underline;
-    text-underline-offset: 0.1rem;
-    color: rgb(132, 0, 255);
-}
-
 /* DESKTOP NAV */
 
 nav, .nav-links{
@@ -473,6 +461,18 @@ article .icon{
     flex-direction: column;
     align-items: center;
     padding: 20px;
+}
+
+.blue-link{
+    color: rgb(132, 0, 255);
+    text-decoration: none;
+}
+
+.blue-link:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 0.1rem;
+    color: rgb(132, 0, 255);
 }
 
 .project-banner{
