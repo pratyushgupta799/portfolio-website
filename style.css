@@ -23,6 +23,7 @@ p{
 }
 
 .inner-body{
+    width: 100%;
     max-width: 1600px;
     background-color: white;
     position: relative;
