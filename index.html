@@ -106,9 +106,11 @@
                             <li>Worked closely with the game director to implement all the features</li>
                             <li>Created a physics based fish controller dynamically changing control logic according to
                                 environment</li>
-                            <li>Built hint system, checkpoint system, music system, input system, etc as separate modules working independently</li>
+                            <li>Built hint system, checkpoint system, music system, input system, etc as separate
+                                modules working independently</li>
                             <li>Created Fish jiggle physics from scratch</li>
-                            <li>Created a custom puddle generator that dynamically spawns based on floor structure using bfs spread and <b>Marching Cubes</b></li>
+                            <li>Created a custom puddle generator that dynamically spawns based on floor structure using
+                                bfs spread and <b>Marching Cubes</b></li>
                             <li>Added custom logics to interactible and dynamic props</li>
                             <li>Fixed bugs and implemented controls for ease of designing levels</li>
                         </ul>
@@ -134,166 +136,178 @@
                             <li>Utilised UDP and TCP protocol and built RPCs over it</li>
                             <li>Added client prediction, server sync, etc.</li>
                             <li>Created gameplay, parkour, hit actions, etc. and made them multiplayer ready</li>
-                            <li>Did packet creation, authentication, encryption, fragmentation, decryption for udp and
+                            <li>Did packet creation, authentication, encryption, fragmentation, decryption for udp
+                                and
                                 tcp</li>
                         </ul>
 
                     </div>
                     <hr class="border-line">
                 </div>
-                <div class="project-main-container">
-                    <h1 class="project-title">Masked Cultists</h1>
-                    <video class="project-banner" id="black-bg" autoplay loop muted playsinline>
-                        <source src="./assets/masked_cultists.mp4" type="video/mp4">
-                    </video>
-                    <div class="project-details-container">
-                        <div class="btn-container">
-                            <button class="btn btn-color-2 project-btn"
-                                onclick="window.open('https://jaspreet3d.itch.io/masked-cultists')">
-                                Play Web
-                            </button>
-                        </div>
-
-                        <ul class="project-bullet-pts">
-                            <li>My Role: <b>Programmer</b></li>
-                            <li>Created Enemy AI for melee and ranged</li>
-                            <li>Designed wave system that works procedurally generating enemies based on parameters</li>
-                            <li>Worked under the time constraints of 3 days</li>
-                            <li>Player can dynamically change abilities on mouse scroll</li>
-                        </ul>
-
-                    </div>
-                    <hr class="border-line">
+                <div class="load-more-container" id="load-more-container">
+                    <button class="btn btn-color-1 load-more-btn" onclick="loadMoreProjects()">Load
+                        More Projects</button>
                 </div>
-                <div class="project-main-container">
-                    <h1 class="project-title">Bin Surf</h1>
-                    <img src="./assets/BinSurfGameplayTrans.gif" alt="Gameplay gif" class="project-banner">
-                    <div class="project-details-container">
-                        <div class="btn-container">
-                            <button class="btn btn-color-2 project-btn" onclick="window.open('./assets/BinSurf.apk')">
-                                APK
-                            </button>
+                <div class="more-unity-projects project-hidden">
+                    <div class="project-main-container">
+                        <h1 class="project-title">Masked Cultists</h1>
+                        <video class="project-banner" id="black-bg" autoplay loop muted playsinline>
+                            <source src="./assets/masked_cultists.mp4" type="video/mp4">
+                        </video>
+                        <div class="project-details-container">
+                            <div class="btn-container">
+                                <button class="btn btn-color-2 project-btn"
+                                    onclick="window.open('https://jaspreet3d.itch.io/masked-cultists')">
+                                    Play Web
+                                </button>
+                            </div>
+
+                            <ul class="project-bullet-pts">
+                                <li>My Role: <b>Programmer</b></li>
+                                <li>Created Enemy AI for melee and ranged</li>
+                                <li>Designed wave system that works procedurally generating enemies based on parameters
+                                </li>
+                                <li>Worked under the time constraints of 3 days</li>
+                                <li>Player can dynamically change abilities on mouse scroll</li>
+                            </ul>
+
                         </div>
-
-                        <ul class="project-bullet-pts">
-                            <li><b>My Role: </b> Programmer</li>
-                            <li>👑 College Game Jam Winner Project</li>
-                            <li><a href="https://www.linkedin.com/posts/pratyush-gupta34_a-leap-of-faith-winning-college-game-activity-7373318899838124034-iDhh?utm_source=share&utm_medium=member_desktop&rcm=ACoAADgHXQ8BvKOXNAOOCi8107fm7-BQdM_B4p4"
-                                    class="blue-link">How I Won? (Linkedin blog)</a></li>
-                            <li>Designed levels based on several iterations of gameplay to get the right feel</li>
-                            <li>Utilised Dotween and various other unity tools</li>
-                            <li>Finished Prototype in one day</li>
-                        </ul>
-
+                        <hr class="border-line">
                     </div>
-                    <hr class="border-line">
-                </div>
-                <div class="project-main-container">
-                    <h1 class="project-title">Calc-o-Swap</h1>
-                    <img src="./assets/CalcoGameplay.gif" alt="Gameplay gif" class="project-banner">
-                    <div class="project-details-container">
-                        <div class="btn-container">
-                            <button class="btn btn-color-2 project-btn"
-                                onclick="window.open('https://jaspreet3d.itch.io/calc-o-swap')">
-                                Play Web
-                            </button>
-                            <button class="btn btn-color-1 project-btn"
-                                onclick="window.open('https://github.com/pratyushgupta799/calc-o-swap')">
-                                Github
-                            </button>
+                    <div class="project-main-container">
+                        <h1 class="project-title">Bin Surf</h1>
+                        <img src="./assets/BinSurfGameplayTrans.gif" alt="Gameplay gif" class="project-banner">
+                        <div class="project-details-container">
+                            <div class="btn-container">
+                                <button class="btn btn-color-2 project-btn"
+                                    onclick="window.open('./assets/BinSurf.apk')">
+                                    APK
+                                </button>
+                            </div>
+
+                            <ul class="project-bullet-pts">
+                                <li><b>My Role: </b> Programmer</li>
+                                <li>👑 College Game Jam Winner Project</li>
+                                <li><a href="https://www.linkedin.com/posts/pratyush-gupta34_a-leap-of-faith-winning-college-game-activity-7373318899838124034-iDhh?utm_source=share&utm_medium=member_desktop&rcm=ACoAADgHXQ8BvKOXNAOOCi8107fm7-BQdM_B4p4"
+                                        class="blue-link">How I Won? (Linkedin blog)</a></li>
+                                <li>Designed levels based on several iterations of gameplay to get the right feel</li>
+                                <li>Utilised Dotween and various other unity tools</li>
+                                <li>Finished Prototype in one day</li>
+                            </ul>
+
                         </div>
-
-                        <ul class="project-bullet-pts">
-                            <li><b>My Role: </b> Programmer</li>
-                            <li>Collaborated with my <a href="https://www.artstation.com/jaspreet"
-                                    class="blue-link">friend</a> who worked on design and art</li>
-                            <li>Made intuitive controls for seamless creation of a wide range of levels</li>
-                            <li>Implemented coyote timing, wall run, and various other exciting mechanics</li>
-                            <li>Used render texture technique to get pixel style</li>
-                            <li>Worked under time constraint of 3 days</li>
-                        </ul>
-
+                        <hr class="border-line">
                     </div>
-                    <hr class="border-line">
-                </div>
-                <div class="project-main-container">
-                    <h1 class="project-title">Bin Dash</h1>
-                    <img src="./assets/BinDash-Gameplay.gif" alt="Gameplay gif" class="project-banner mobile-gif">
-                    <div class="project-details-container">
-                        <div class="btn-container">
-                            <button class="btn btn-color-2 project-btn" onclick="window.open('./assets/Bin.apk')">
-                                APK
-                            </button>
-                            <button class="btn btn-color-1 project-btn"
-                                onclick="window.open('https://github.com/pratyushgupta799/BinDash')">
-                                Github
-                            </button>
+                    <div class="project-main-container">
+                        <h1 class="project-title">Calc-o-Swap</h1>
+                        <img src="./assets/CalcoGameplay.gif" alt="Gameplay gif" class="project-banner">
+                        <div class="project-details-container">
+                            <div class="btn-container">
+                                <button class="btn btn-color-2 project-btn"
+                                    onclick="window.open('https://jaspreet3d.itch.io/calc-o-swap')">
+                                    Play Web
+                                </button>
+                                <button class="btn btn-color-1 project-btn"
+                                    onclick="window.open('https://github.com/pratyushgupta799/calc-o-swap')">
+                                    Github
+                                </button>
+                            </div>
+
+                            <ul class="project-bullet-pts">
+                                <li><b>My Role: </b> Programmer</li>
+                                <li>Collaborated with my <a href="https://www.artstation.com/jaspreet"
+                                        class="blue-link">friend</a> who worked on design and art</li>
+                                <li>Made intuitive controls for seamless creation of a wide range of levels</li>
+                                <li>Implemented coyote timing, wall run, and various other exciting mechanics</li>
+                                <li>Used render texture technique to get pixel style</li>
+                                <li>Worked under time constraint of 3 days</li>
+                            </ul>
+
                         </div>
-
-                        <ul class="project-bullet-pts">
-                            <li><b>My Role: </b> Solo Developer and 3D asset creator</li>
-                            <li>Used <b>new input system</b> for swipe</li>
-                            <li>Created Interactive UI: Slider for sensivity, score and drop counter, pause, and game
-                                over screen</li>
-                        </ul>
-
+                        <hr class="border-line">
                     </div>
-                    <hr class="border-line">
-                </div>
-                <div class="project-main-container">
-                    <h1 class="project-title">Ball</h1>
-                    <img src="./assets/BallGameplay-ezgif.com-crop.gif" alt="Gameplay gif" class="project-banner">
-                    <div class="project-details-container">
-                        <div class="btn-container">
-                            <button class="btn btn-color-2 project-btn"
-                                onclick="window.open('https://ballok.netlify.app/')">
-                                Play Web
-                            </button>
-                            <button class="btn btn-color-1 project-btn"
-                                onclick="window.open('https://github.com/pratyushgupta799/Ball')">
-                                Github
-                            </button>
+                    <div class="project-main-container">
+                        <h1 class="project-title">Bin Dash</h1>
+                        <img src="./assets/BinDash-Gameplay.gif" alt="Gameplay gif" class="project-banner mobile-gif">
+                        <div class="project-details-container">
+                            <div class="btn-container">
+                                <button class="btn btn-color-2 project-btn" onclick="window.open('./assets/Bin.apk')">
+                                    APK
+                                </button>
+                                <button class="btn btn-color-1 project-btn"
+                                    onclick="window.open('https://github.com/pratyushgupta799/BinDash')">
+                                    Github
+                                </button>
+                            </div>
+
+                            <ul class="project-bullet-pts">
+                                <li><b>My Role: </b> Solo Developer and 3D asset creator</li>
+                                <li>Used <b>new input system</b> for swipe</li>
+                                <li>Created Interactive UI: Slider for sensivity, score and drop counter, pause, and
+                                    game
+                                    over screen</li>
+                            </ul>
+
                         </div>
-
-                        <ul class="project-bullet-pts">
-                            <li><b>My Role: </b> Solo Developer</li>
-                            <li>Used mouse input, keyboard input and touch input altogether to make it widely compatible
-                            </li>
-                            <li>Calculated the exact point where the ball got hit on the paddle to impact its reflection
-                                accordingly</li>
-                        </ul>
-
+                        <hr class="border-line">
                     </div>
-                    <hr class="border-line">
-                </div>
-                <div class="project-main-container">
-                    <h1 class="project-title">Balloon</h1>
-                    <img src="./assets/BalloonGameplay.gif" alt="Gameplay gif" class="project-banner">
-                    <div class="project-details-container">
-                        <div class="btn-container">
-                            <button class="btn btn-color-2 project-btn"
-                                onclick="window.open('https://balloonok.netlify.app/')">
-                                Play Web
-                            </button>
-                            <button class="btn btn-color-1 project-btn"
-                                onclick="window.open('https://github.com/pratyushgupta799/Balloon')">
-                                Github
-                            </button>
+                    <div class="project-main-container">
+                        <h1 class="project-title">Ball</h1>
+                        <img src="./assets/BallGameplay-ezgif.com-crop.gif" alt="Gameplay gif" class="project-banner">
+                        <div class="project-details-container">
+                            <div class="btn-container">
+                                <button class="btn btn-color-2 project-btn"
+                                    onclick="window.open('https://ballok.netlify.app/')">
+                                    Play Web
+                                </button>
+                                <button class="btn btn-color-1 project-btn"
+                                    onclick="window.open('https://github.com/pratyushgupta799/Ball')">
+                                    Github
+                                </button>
+                            </div>
+
+                            <ul class="project-bullet-pts">
+                                <li><b>My Role: </b> Solo Developer</li>
+                                <li>Used mouse input, keyboard input and touch input altogether to make it widely
+                                    compatible
+                                </li>
+                                <li>Calculated the exact point where the ball got hit on the paddle to impact its
+                                    reflection
+                                    accordingly</li>
+                            </ul>
+
                         </div>
-
-                        <ul class="project-bullet-pts">
-                            <li><b>My Role: </b> Solo Developer</li>
-                            <li>Made random pattern spawner</li>
-                            <li>Created atlas based texture map</li>
-                        </ul>
-
+                        <hr class="border-line">
                     </div>
-                    <hr class="border-line">
+                    <div class="project-main-container">
+                        <h1 class="project-title">Balloon</h1>
+                        <img src="./assets/BalloonGameplay.gif" alt="Gameplay gif" class="project-banner">
+                        <div class="project-details-container">
+                            <div class="btn-container">
+                                <button class="btn btn-color-2 project-btn"
+                                    onclick="window.open('https://balloonok.netlify.app/')">
+                                    Play Web
+                                </button>
+                                <button class="btn btn-color-1 project-btn"
+                                    onclick="window.open('https://github.com/pratyushgupta799/Balloon')">
+                                    Github
+                                </button>
+                            </div>
+
+                            <ul class="project-bullet-pts">
+                                <li><b>My Role: </b> Solo Developer</li>
+                                <li>Made random pattern spawner</li>
+                                <li>Created atlas based texture map</li>
+                            </ul>
+
+                        </div>
+                        <hr class="border-line">
+                    </div>
                 </div>
             </div>
 
         </section>
-        <section id="projects2">
+        <section id="projects2" class="project-hidden">
             <p class="section__text__p1">Browse My Recent</p>
             <h1 class="title">Unreal Projects</h1>
             <div class="project-container">
@@ -320,6 +334,10 @@
 
                     </div>
                     <hr class="border-line">
+                    <div class="load-less-container" id="load-less-container">
+                        <button class="btn btn-color-1 load-less-btn" onclick="loadLessProjects()">Load
+                            Less</button>
+                    </div>
                 </div>
             </div>
 

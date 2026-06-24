@@ -459,6 +459,21 @@ article .icon{
     flex-direction: column;
 }
 
+.more-unity-projects{
+    display: flex;
+    flex-direction: column;
+}
+
+.project-hidden{
+    display: none !important;
+}
+
+.load-more-container, .load-less-container{
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0 2rem;
+}
+
 /* ------------------------------------ */
 
 .project-main-container{
