@@ -485,6 +485,10 @@ article .icon{
     /* background-color: rgb(0, 0, 0); */
 }
 
+#black-bg{
+    background-color: black;
+}
+
 .project-details-container{
     padding: 25px;
     gap: 5rem;
